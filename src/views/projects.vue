@@ -9,9 +9,9 @@
         wrap class="my-5"
         align-center fill-height
       >
-        <v-flex xs12 sm12 class="my-3">
+        <v-flex xs12 class="my-3">
           <div class="text-xs-center">
-            <h2 class="headline">We are a company dedicated to creating services that are open and rigorous.</h2>
+            <h2 class="headline">Here are some of the projects that we are working on to make the Crypto space more accessible.</h2>
           </div>
         </v-flex>
 
@@ -23,11 +23,11 @@
              ></v-img>
            <v-card-title primary-title class="justify-center">
              <div>
-               <h3 class="headline mb-0">{{ item.name }}</h3>
+               <h3 class="headline mb-0">{{ key }}</h3>
              </div>
            </v-card-title>
            <v-card-actions class="justify-center">
-             <v-btn flat color="orange" v-bind:href="item.link">{{ key }}</v-btn>
+             <v-btn flat color="orange" v-bind:href="item.link">{{ item.button }}</v-btn>
            </v-card-actions>
          </v-card>
         </v-flex>
@@ -41,9 +41,11 @@ export default {
   data () {
     return {
       items: {
-        'Multisig': { name: 'Multisig Crypto', link: 'https://www.multisigcrypto.com/', photo: 'https://images.pexels.com/photos/1055336/pexels-photo-1055336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
-        'Read': { name: 'Blog', link: 'https://www.decentralizejustice.com/blog', photo: 'https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' },
-        'Build': { name: 'Decentralized Best Practices', link: 'https://www.decenbestpractices.com', photo: 'https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' }
+        'Multisig Crypto': { button: 'Multisig', link: 'https://www.multisigcrypto.com/', photo: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187114/decenMain/tech.jpg' },
+        'Blog': { button: 'Read', link: 'https://www.decentralizejustice.com/blog', photo: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187235/decenMain/reading.jpg' },
+        'Plastic Key Storage': { button: 'Explore', link: 'https://plastickeystorage.com', photo: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187300/decenMain/plastic.jpg' },
+        'Keys By Any Means': { button: 'Explore', link: 'https://keysbyanymeans.com/', photo: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555191944/decenMain/keystack.jpg' }
+
       }
     }
   }
