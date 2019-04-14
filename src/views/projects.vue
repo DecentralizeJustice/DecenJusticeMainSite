@@ -41,7 +41,7 @@ export default {
   data () {
     return {
       items: {
-        'Multisig Crypto': { button: 'Multisig', link: 'https://www.multisigcrypto.com/', photo: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187114/decenMain/tech.jpg' },
+        'Multisig Crypto': { button: 'Explore', link: 'https://www.multisigcrypto.com/', photo: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187114/decenMain/tech.jpg' },
         'Blog': { button: 'Read', link: 'https://www.decentralizejustice.com/blog', photo: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187235/decenMain/reading.jpg' },
         'Plastic Key Storage': { button: 'Explore', link: 'https://plastickeystorage.com', photo: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187300/decenMain/plastic.jpg' },
         'Keys By Any Means': { button: 'Explore', link: 'https://keysbyanymeans.com/', photo: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555191944/decenMain/keystack.jpg' }
