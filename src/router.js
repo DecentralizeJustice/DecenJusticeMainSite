@@ -16,10 +16,19 @@ export default new Router({
     {
       path: '/projects',
       name: 'projects',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/projects.vue')
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: () => import(/* webpackChunkName: "about" */ './views/about.vue')
+    },
+    {
+      path: '/blog',
+      beforeEnter (to, from, next) {
+        // Put the full page url including the protocol http(s) below
+        window.location = 'https://www.decentralizejustice.com/blog'
+      }
     }
   ]
 })
