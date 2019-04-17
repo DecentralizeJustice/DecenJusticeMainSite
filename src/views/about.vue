@@ -21,11 +21,11 @@
                 left: 10vw;
                 top: 10vh;"
               >What Drives Us</div>
-              <div class="" style="width:50vw;font-size: 1.7em;color: white;position:relative;
+              <div class="" style="width:50vw;font-size: 1.7em;position:relative;
                 left: 5vw;
                 top: 10vw;
                 text-align: left;
-                color: black;"
+                color: #0d0659;"
               >We first got involved in crypto in 2014 by building mining rigs. To be in the space at this time required a
               vast understanding of technology. Since then we have seen the crypto consumer space grow at
               an exponential rate. Although the exponential for decentralized technologies has grown
@@ -79,11 +79,11 @@
                 left: 10vw;
                 top: 10vh;"
               >Reach Out</div>
-              <div class="" style="width:50vw;font-size: 1.7em;color: white;position:relative;
+              <div class="" style="width:50vw;font-size: 1.7em;position:relative;
                 left: 5vw;
-                top: 10vw;
+                top: 8vw;
                 text-align: left;
-                color: black;"
+                color: #0d0659;"
               >Building community is vital for any project. If you have any questions, concerns, or just want
                   to see what we are up to, follow us on any platform below and reach out to us.
             </div>
@@ -127,18 +127,22 @@ export default {
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 .first{
   height: 85vh;
+  font-family: 'Merriweather', serif;
   background-image: url("https://res.cloudinary.com/dylevfpbl/image/upload/v1555400445/decenMain/techblack_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .second{
+  font-family: 'Merriweather', serif;
   height: 80vh;
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 .third{
+  font-family: 'Merriweather', serif;
   height: 80vh;
   background-color: #b1bfd8;
   background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
