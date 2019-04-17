@@ -1,7 +1,7 @@
 <template>
   <div>
     <toolBar/>
-    <v-container fluid text-xs-center grid-list-xl class="ma-0 pa-0 all">
+    <v-container fluid text-xs-center grid-list-xl class="ma-0 pa-0">
       <v-layout
         justify-center row
         wrap class="ma-0 pa-0"
@@ -10,7 +10,7 @@
         <v-flex xs12 class="ma-0 pa-0 first">
           <div class="text-xs-left center ml-5" style="  ">
             <div class="" style="width:63%;letter-spacing: .03em;font-size: 4.5em">We create apps that empower people
-              to use the full potential of decentralized technology.</div>
+              to use the full potential of decentralized technology</div>
           </div>
         </v-flex>
 
@@ -26,7 +26,7 @@
                 left: 5vw;
                 top: 10vw;
                 text-align: left;
-                color: #0d0659;"
+                color: #09093B;"
               >We first got involved in crypto in 2014 by building mining rigs. To be in the space at this time required a
               vast understanding of technology. Since then we have seen the crypto consumer space grow at
               an exponential rate. Although the exponential for decentralized technologies has grown
@@ -86,7 +86,7 @@
                 left: 5vw;
                 top: 8vw;
                 text-align: left;
-                color: #0d0659;"
+                color: #09093B;"
               >Building community is vital for any project. If you have any questions, concerns, or just want
                   to see what we are up to, follow us on any platform below and reach out to us.
             </div>
@@ -130,7 +130,7 @@ export default {
 }
 </script>
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Karla');
+
 .first{
   height: 85vh;
   background-image: url("https://res.cloudinary.com/dylevfpbl/image/upload/v1555400445/decenMain/techblack_2.jpg");
@@ -154,8 +154,4 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.all{
-  font-family: 'Karla', sans-serif;
-}
-
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <v-app dark>
+    <v-app dark class="all">
       <v-content>
         <router-view/>
     </v-content>
@@ -8,5 +8,8 @@
  </div>
 </template>
 <style>
-
+@import url('https://fonts.googleapis.com/css?family=Karla');
+.all{
+  font-family: 'Karla', sans-serif;
+}
 </style>
