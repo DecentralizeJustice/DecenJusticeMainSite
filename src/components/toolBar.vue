@@ -46,8 +46,8 @@ export default {
   },
   data: () => ({
     pages: [
-      { title: 'About', link: '/about' },
       { title: 'Projects', link: '/projects' },
+      { title: 'About', link: '/about' },
       { title: 'Blog', link: '/blog' }
       // { title: 'Multisig Crypto', link: 'multisig' },
       // { title: 'R and D', link: 'randd' },

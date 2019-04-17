@@ -17,7 +17,6 @@
           <br>
           <div class="text-xs-center">
             <v-btn flat class="buttonOpt" to="/projects">Projects</v-btn>
-            <v-btn flat class="buttonOpt" >Shop</v-btn>
             <v-btn flat class="buttonOpt" to="/about" >About</v-btn>
             <v-btn flat class="buttonOpt" href="https://www.decentralizejustice.com/blog">Blog</v-btn>
           </div>
@@ -33,7 +32,6 @@
           <br>
           <div class="text-xs-center">
             <v-btn flat class="buttonOpt" to="/projects">Projects</v-btn>
-            <v-btn flat class="buttonOpt" >Shop</v-btn>
             <v-btn flat class="buttonOpt" to="/about" >About</v-btn>
             <v-btn flat class="buttonOpt" href="https://www.decentralizejustice.com/blog">Blog</v-btn>
           </div>
