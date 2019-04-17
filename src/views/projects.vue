@@ -1,37 +1,75 @@
 <template>
   <div>
     <toolBar/>
-    <v-container fluid text-xs-center grid-list-xl>
-      <v-layout
-        justify-center row
-        wrap class="my-5"
-        align-center fill-height
-      >
-        <v-flex xs12 class="my-3">
-          <div class="text-xs-center">
-            <h2 class="headline">Here are our current projects:</h2>
-          </div>
-        </v-flex>
+    <v-flex xs12 class="ma-0 pa-0 first">
+      <div class="text-xs-left center ml-5" style="  ">
+        <div class="" style="width:63%;letter-spacing: .01em;font-size: 4.5em;color:black;">
+          Cypherpunks Write Code - Cypherpunks Manifesto</div>
+      </div>
+    </v-flex>
 
-        <v-flex xs12 md4  v-for="(item, key) in items" :key="item.id">
-          <v-card>
-             <v-img
-               v-bind:src="item.photo"
-               aspect-ratio="2"
-             ></v-img>
-           <v-card-title primary-title class="justify-center">
-             <div>
-               <h3 class="headline mb-0">{{ key }}</h3>
-             </div>
-           </v-card-title>
-           <v-card-actions class="justify-center">
-             <v-btn flat color="orange" v-bind:href="item.link">{{ item.button }}</v-btn>
-           </v-card-actions>
-         </v-card>
+    <v-flex xs12 class="ma-0 pa-0 third">
+      <v-layout row wrap>
+        <v-flex xs6 style="" class="background firstp">
         </v-flex>
+        <v-flex xs6 style="height:100%;">
+          <div class="" style="width:50vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
+            left: 5vw;
+            top: 10vh;
+            font-weight:bold;
+            "
+          >Keys By Any Means</div>
+          <div class="" style="width:44vw;font-size: 175%;color: white;position:relative;
+            left: 4vw;
+            top: 18vh;
+            text-align: left;
+            color: black;"
+          >
+            Crypto Security and Usage is a deeply unique issue, but the crypto space
+            reccomends the same best practices to everyone. This app delivers a
+            <span style="font-weight:bold;">customized</span> risk assemsnt and plan
+            that allows you to own your keys in a way that works best for you.
+        </div>
+        <v-btn color="info" style="position:relative;
+          left: 21vw;
+          top: 24vh;
+        " href='https://keysbyanymeans.com/' target="_blank"
+        >Explore</v-btn>
+        </v-flex>
+        </v-layout>
+    </v-flex>
 
-      </v-layout>
-    </v-container>
+    <v-flex xs12 class="ma-0 pa-0 third">
+      <v-layout row wrap>
+        <v-flex xs6 style="height:100%;">
+          <div class="" style="width:50vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
+            left: 5vw;
+            top: 10vh;
+            font-weight:bold;
+            "
+          >Plastic Key Storage</div>
+          <div class="" style="width:44vw;font-size: 175%;color: white;position:relative;
+            left: 4vw;
+            top: 18vh;
+            text-align: left;
+            color: black;"
+          >
+            Crypto Security and Usage is a deeply unique issue, but the crypto space
+            reccomends the same best practices to everyone. This app delivers a
+            <span style="font-weight:bold;">customized</span> risk assemsnt and plan
+            that allows you to own your keys in a way that works best for you.
+        </div>
+        <v-btn color="info" style="position:relative;
+          left: 21vw;
+          top: 24vh;
+        " href='https://plastickeystorage.com/' target="_blank"
+        >Explore</v-btn>
+        </v-flex>
+        <v-flex xs6 class="background secondp">
+        </v-flex>
+        </v-layout>
+    </v-flex>
+
   </div>
 </template>
 <script>
@@ -43,13 +81,37 @@ export default {
   },
   data () {
     return {
-      items: {
-        'Multisig Crypto': { button: 'Explore', link: 'https://www.multisigcrypto.com/', photo: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187114/decenMain/tech.jpg' },
-        'Plastic Key Storage': { button: 'Explore', link: 'https://plastickeystorage.com', photo: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187300/decenMain/plastic.jpg' },
-        'Keys By Any Means': { button: 'Explore', link: 'https://keysbyanymeans.com/', photo: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555191944/decenMain/keystack.jpg' }
-
-      }
     }
   }
 }
 </script>
+<style scoped>
+
+.first{
+  height: 80vh;
+
+  background-color:white;
+}
+.second{
+  height: 80vh;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.third{
+  height: 80vh;
+  background-color: #b1bfd8;
+  background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+}
+.background{
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.firstp{
+  height:80vh;
+  background-image: url('https://res.cloudinary.com/dylevfpbl/image/upload/v1555191944/decenMain/keystack.jpg');
+}
+.secondp{
+  height:80vh;
+  background-image: url('https://res.cloudinary.com/dylevfpbl/image/upload/v1555187300/decenMain/plastic.jpg');
+}
+</style>
