@@ -119,10 +119,6 @@
 
         </v-flex>
 
-        <v-parallax
-        src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555472641/decenMain/social-media-1795578_960_720.jpg">
-        </v-parallax>
-
   </div>
 </template>
 <script>
