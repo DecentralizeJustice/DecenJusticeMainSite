@@ -20,7 +20,8 @@
               <div class="" style="width:40vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
                 left: 10vw;
                 top: 10vh;
-                font-weight:bold;"
+                font-weight:bold;
+                text-decoration: underline;"
               >What Drives Us</div>
               <div class="" style="width:50vw;font-size: 1.7em;position:relative;
                 left: 5vw;
@@ -57,7 +58,8 @@
               <div class="" style="width:40vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
                 left: 3vw;
                 top: 10vh;
-                font-weight:bold;"
+                font-weight:bold;
+                text-decoration: underline;"
               >Who We Are</div>
               <div class="" style="width:40vw;font-size: 175%;color: white;position:relative;
                 left: 3vw;
@@ -80,7 +82,8 @@
               <div class="" style="width:40vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
                 left: 10vw;
                 top: 10vh;
-                font-weight:bold;"
+                font-weight:bold;
+                text-decoration: underline;"
               >Reach Out</div>
               <div class="" style="width:50vw;font-size: 1.7em;position:relative;
                 left: 5vw;

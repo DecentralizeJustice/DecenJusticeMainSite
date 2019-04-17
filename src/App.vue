@@ -8,7 +8,7 @@
  </div>
 </template>
 <style>
-@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 .all{
   font-family: 'Karla', sans-serif;
 }
