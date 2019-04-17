@@ -60,9 +60,10 @@
                 top: 8vw;
                 text-align: left;
                 color: black;"
-              >Donely Gunn founded Decentralize Justice after the crypto bull run of 2017.
+              >
+              Donely Gunn founded Decentralize Justice after the crypto bull run of 2017.
               Donely has shown a passion for trying to improve society with technology since
-               a young age and has spent thier life perfecting that craft.   They first got
+               a young age and has spent their life perfecting that craft.   They first got
                 involved with crypto in high school via bitcoin mining, and they later saw major
               issues in the usability of crypto and sought to solve a lot of these issues with Decentralize Justice.
             </div>
