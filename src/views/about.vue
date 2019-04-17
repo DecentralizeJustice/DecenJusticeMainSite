@@ -1,12 +1,7 @@
 <template>
   <div>
     <toolBar/>
-    <v-container fluid text-xs-center grid-list-xl class="ma-0 pa-0">
-      <v-layout
-        justify-center row
-        wrap class="ma-0 pa-0"
-        align-center fill-height
-      >
+
         <v-flex xs12 class="ma-0 pa-0 first">
           <div class="text-xs-left center ml-5" style="  ">
             <div class="" style="width:63%;letter-spacing: .01em;font-size: 4.5em">We create apps that empower people
@@ -14,8 +9,11 @@
           </div>
         </v-flex>
 
+        <v-parallax
+        src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555450301/decenMain/mining-2648005_960_720.jpg">
+        </v-parallax>
+
         <v-flex xs12 class="ma-0 pa-0 second">
-          <v-layout row wrap>
             <v-flex xs6 style="height:100%;">
               <div class="" style="width:40vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
                 left: 10vw;
@@ -37,23 +35,14 @@
                not overwhelm or limit, users of decentralized technologies.
             </div>
             </v-flex>
-            <v-flex xs6 style="height:80vh;">
-                <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555450301/decenMain/mining-2648005_960_720.jpg"
-                  style="height:auto;width:80%;position:relative;
-                    left: 2vw;
-                    top: 20vh;" >
-            </v-flex>
-          </v-layout>
         </v-flex>
 
+        <v-parallax
+        src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555447215/decenMain/mathsciencewhiz1.jpg">
+        </v-parallax>
+
         <v-flex xs12 class="ma-0 pa-0 third">
-          <v-layout row wrap>
-            <v-flex xs6 style="height:80vh;">
-                <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555447215/decenMain/mathsciencewhiz1.jpg"
-                  style="height:auto;width:45vw;position:relative;
-                    left: 2vw;
-                    top: 20vh;" >
-            </v-flex>
+
             <v-flex xs6 style="height:100%;">
               <div class="" style="width:40vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
                 left: 3vw;
@@ -73,8 +62,11 @@
               issues in the usability of crypto and sought to solve a lot of these issues with Decentralize Justice.
             </div>
             </v-flex>
-          </v-layout>
         </v-flex>
+
+        <v-parallax
+        src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555472641/decenMain/social-media-1795578_960_720.jpg">
+        </v-parallax>
 
         <v-flex xs12 class="ma-0 pa-0 second">
           <v-layout row wrap>
@@ -115,17 +107,16 @@
           </v-layout>
         </v-flex>
 
-      </v-layout>
-    </v-container>
+
   </div>
 </template>
 <script>
 import toolBar from '@/components/toolBar.vue'
+
 export default {
   name: 'about',
   components: {
-    toolBar
-  },
+    toolBar },
   data () {
     return {
     }
@@ -135,7 +126,7 @@ export default {
 <style scoped>
 
 .first{
-  height: 85vh;
+  height: 100vh;
   background-image: url("https://res.cloudinary.com/dylevfpbl/image/upload/v1555400445/decenMain/techblack_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
