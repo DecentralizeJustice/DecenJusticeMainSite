@@ -16,8 +16,7 @@
               <div class="" style="width:40vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
                 left: 10vw;
                 top: 10vh;
-                font-weight:bold;
-                text-decoration: underline;"
+                font-weight:bold;"
               >What Drives Us</div>
               <div class="" style="width:50vw;font-size: 1.7em;position:relative;
                 left: 5vw;
@@ -51,13 +50,13 @@
           <v-layout row wrap>
             <v-flex xs6 style="height:100%;">
               <div class="" style="width:40vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
-                left: 3vw;
+                left: 15vw;
                 top: 10vh;
                 font-weight:bold;
-                text-decoration: underline;"
+                "
               >Who We Are</div>
               <div class="" style="width:40vw;font-size: 175%;color: white;position:relative;
-                left: 3vw;
+                left: 10vw;
                 top: 8vw;
                 text-align: left;
                 color: black;"
@@ -84,14 +83,13 @@
           <v-layout row wrap>
             <v-flex xs6 style="height:100%;">
               <div class="" style="width:40vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
-                left: 10vw;
+                left: 18vw;
                 top: 10vh;
-                font-weight:bold;
-                text-decoration: underline;"
+                font-weight:bold;"
               >Reach Out</div>
               <div class="" style="width:50vw;font-size: 1.7em;position:relative;
-                left: 5vw;
-                top: 8vw;
+                left: 8vw;
+                top: 7vw;
                 text-align: left;
                 color: #09093B;"
               >Building community is vital for any project. If you have any questions, concerns, or just want
@@ -100,13 +98,13 @@
             <a href="https://www.reddit.com/r/DecentralizeJustice" target="_blank">
             <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555450247/decenMain/Reddit_Mark_OnDark.png"
               style="height:auto;width:30%;position:relative;
-                left: 2vw;
+                left: 10vw;
                 top: 10vh;" >
               </a>
                 <a href="https://twitter.com/DecenJustice" target="_blank">
                 <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555472356/decenMain/Twitter_Logo_Blue.png"
                   style="height:auto;width:40%;position:relative;
-                    left: 4vw;
+                    left: 14vw;
                     top: 15vh;">
                   </a>
             </v-flex>
