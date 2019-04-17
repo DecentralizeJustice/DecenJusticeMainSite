@@ -3,17 +3,15 @@
     <toolBar/>
 
         <v-flex xs12 class="ma-0 pa-0 first">
+
           <div class="text-xs-left center ml-5" style="  ">
             <div class="" style="width:63%;letter-spacing: .01em;font-size: 4.5em">We create apps that empower people
               to use the full potential of decentralized technology</div>
           </div>
         </v-flex>
 
-        <v-parallax
-        src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555450301/decenMain/mining-2648005_960_720.jpg">
-        </v-parallax>
-
         <v-flex xs12 class="ma-0 pa-0 second">
+          <v-layout row wrap>
             <v-flex xs6 style="height:100%;">
               <div class="" style="width:40vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
                 left: 10vw;
@@ -26,7 +24,8 @@
                 top: 10vw;
                 text-align: left;
                 color: #09093B;"
-              >We first got involved in crypto in 2014 by building mining rigs. To be in the space at this time required a
+              >
+              We first got involved in crypto in 2014 by building mining rigs. To be in the space at this time required a
               vast understanding of technology. Since then we have seen the crypto consumer space grow at
               an exponential rate. Although the exponential for decentralized technologies has grown
               since then, the tooling has not kept up with this growth. Most of the tools that exist
@@ -35,14 +34,21 @@
                not overwhelm or limit, users of decentralized technologies.
             </div>
             </v-flex>
+            <v-flex xs6 style="height:80vh;">
+                <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555482590/decenMain/undraw_bitcoin2_ave7.svg"
+                  style="height:auto;width:20vw;position:relative;
+                    left: 18vw;
+                    top: 20vh;" >
+            </v-flex>
+          </v-layout>
         </v-flex>
 
         <v-parallax
-        src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555447215/decenMain/mathsciencewhiz1.jpg">
+        src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555450301/decenMain/mining-2648005_960_720.jpg">
         </v-parallax>
 
         <v-flex xs12 class="ma-0 pa-0 third">
-
+          <v-layout row wrap>
             <v-flex xs6 style="height:100%;">
               <div class="" style="width:40vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
                 left: 3vw;
@@ -62,10 +68,16 @@
               issues in the usability of crypto and sought to solve a lot of these issues with Decentralize Justice.
             </div>
             </v-flex>
+            <v-flex xs6 style="height:80vh;">
+                <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555482893/decenMain/vectorpaint.svg"
+                  style="height:auto;width:30vw;position:relative;
+                    left: 8vw;
+                    top: 16vh;" >
+            </v-flex>
+            </v-layout>
         </v-flex>
-
         <v-parallax
-        src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555472641/decenMain/social-media-1795578_960_720.jpg">
+        src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555447215/decenMain/mathsciencewhiz1.jpg">
         </v-parallax>
 
         <v-flex xs12 class="ma-0 pa-0 second">
@@ -99,14 +111,18 @@
                   </a>
             </v-flex>
             <v-flex xs6 style="height:80vh;">
-                <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555472641/decenMain/social-media-1795578_960_720.jpg"
-                  style="height:auto;width:80%;position:relative;
-                    left: 2vw;
+                <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555483001/decenMain/undraw_social_thinking_7ule.svg"
+                  style="height:auto;width:50vh;position:relative;
+                    left: 10vw;
                     top: 20vh;" >
             </v-flex>
           </v-layout>
+
         </v-flex>
 
+        <v-parallax
+        src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555472641/decenMain/social-media-1795578_960_720.jpg">
+        </v-parallax>
 
   </div>
 </template>
@@ -126,7 +142,7 @@ export default {
 <style scoped>
 
 .first{
-  height: 100vh;
+  height: 80vh;
   background-image: url("https://res.cloudinary.com/dylevfpbl/image/upload/v1555400445/decenMain/techblack_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
