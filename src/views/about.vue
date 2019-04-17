@@ -1,7 +1,7 @@
 <template>
   <div>
     <toolBar/>
-    <v-container fluid text-xs-center grid-list-xl class="ma-0 pa-0">
+    <v-container fluid text-xs-center grid-list-xl class="ma-0 pa-0 all">
       <v-layout
         justify-center row
         wrap class="ma-0 pa-0"
@@ -19,7 +19,8 @@
             <v-flex xs6 style="height:100%;">
               <div class="" style="width:40vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
                 left: 10vw;
-                top: 10vh;"
+                top: 10vh;
+                font-weight:bold;"
               >What Drives Us</div>
               <div class="" style="width:50vw;font-size: 1.7em;position:relative;
                 left: 5vw;
@@ -55,7 +56,8 @@
             <v-flex xs6 style="height:100%;">
               <div class="" style="width:40vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
                 left: 3vw;
-                top: 10vh;"
+                top: 10vh;
+                font-weight:bold;"
               >Who We Are</div>
               <div class="" style="width:40vw;font-size: 175%;color: white;position:relative;
                 left: 3vw;
@@ -77,7 +79,8 @@
             <v-flex xs6 style="height:100%;">
               <div class="" style="width:40vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
                 left: 10vw;
-                top: 10vh;"
+                top: 10vh;
+                font-weight:bold;"
               >Reach Out</div>
               <div class="" style="width:50vw;font-size: 1.7em;position:relative;
                 left: 5vw;
@@ -127,22 +130,19 @@ export default {
 }
 </script>
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Karla');
 .first{
   height: 85vh;
-  font-family: 'Merriweather', serif;
   background-image: url("https://res.cloudinary.com/dylevfpbl/image/upload/v1555400445/decenMain/techblack_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .second{
-  font-family: 'Merriweather', serif;
   height: 80vh;
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 .third{
-  font-family: 'Merriweather', serif;
   height: 80vh;
   background-color: #b1bfd8;
   background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
@@ -153,6 +153,9 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.all{
+  font-family: 'Karla', sans-serif;
 }
 
 </style>
