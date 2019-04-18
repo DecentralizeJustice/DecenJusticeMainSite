@@ -1,7 +1,7 @@
 <template>
   <v-container  text-xs-center fluid ma-0 pa-0 >
     <v-layout row wrap ma-0 pa-0>
-      <v-flex xs12 ma-0 pa-0 hidden-md-and-down style="overflow: hidden;">
+      <v-flex xs12 ma-0 pa-0 hidden-sm-and-down style="overflow: hidden;">
         <video style="
         position: fixed;
         right: 0;
@@ -23,9 +23,11 @@
         </v-flex>
       </v-flex>
 
-      <v-flex xs12 ma-0 pa-0 hidden-md-and-up  style="background-image: url('https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');height:100vh;width:100vw;  background-repeat: no-repeat;
-  background-size: cover; ">
-        <v-flex class="title" xs12 pa-4 style="background-color: #64B5F6;">
+      <v-flex xs12 ma-0 pa-0 hidden-md-and-up
+      style="background-image: url('https://res.cloudinary.com/dylevfpbl/image/upload/v1555565441/decenMain/codenonblur.jpg');
+      height:100vh;width:100vw;  background-repeat: no-repeat;
+        background-size: cover; ">
+        <v-flex class="title" xs12 pa-4 style="background-color: rgb(169,169,169,.9);">
           <div class="display-2 white--text text-xs-center" >
             Decentralize Justice
           </div>
