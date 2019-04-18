@@ -29,7 +29,7 @@
             :key="page.title"
             :to="page.link"
           >
-            <v-list-tile-content>
+            <v-list-tile-content style="font-size: 2em;">
               {{page.title}}
             </v-list-tile-content>
           </v-list-tile>
