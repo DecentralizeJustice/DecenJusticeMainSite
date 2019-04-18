@@ -38,7 +38,7 @@
         ><button  class="bttn-simple bttn-lg" style="position:relative;
           left: 21vw;
           top: 24vh;
-          background-color: blue;
+          background-color: #5D76A1;
         "
         >Explore</button></a>
         </v-flex>
@@ -60,15 +60,17 @@
             text-align: left;
             color: black;"
           >
-            Plastic creates a new option for crypto backup. It is a cheaper and easeir to make than metal.
-            It is also more durable than paper. Plastic key storage methods will help more people secure thier crypto keys.
+            Plastic materials create a new option for crypto keys backup. It is
+            <span style="font-weight:bold;">cheaper and easier</span> to use than metal backups.
+            It is also more <span style="font-weight:bold;">durable</span> than writing your seed on paper.
+             Plastic key storage methods will help more people secure their crypto keys.
 
         </div>
         <a href='https://plastickeystorage.com/' target="_blank"
         ><button  class="bttn-simple bttn-lg" style="position:relative;
           left: 21vw;
           top: 24vh;
-          background-color: blue;
+          background-color: #58B1DB;
         "
         >Explore</button></a>
 
@@ -103,7 +105,7 @@
         ><button  class="bttn-simple bttn-lg" style="position:relative;
           left: 21vw;
           top: 24vh;
-          background-color: blue;
+          background-color: #5D76A1;
         "
         >Explore</button></a>
         </v-flex>
