@@ -148,7 +148,7 @@ export default {
 }
 .secondp{
   height:80vh;
-  background-image: url('https://res.cloudinary.com/dylevfpbl/image/upload/v1555187300/decenMain/plastic.jpg');
+  background-image: url('https://res.cloudinary.com/dylevfpbl/image/upload/v1555546242/decenMain/cards-2179841_960_720.jpg');
 }
 .thirdp{
     height:80vh;
