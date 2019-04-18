@@ -5,8 +5,9 @@
         <v-flex xs12 class="ma-0 pa-0 first">
 
           <div class="text-xs-left center ml-5" style="  ">
-            <div class="" style="width:63%;letter-spacing: .01em;font-size: 4.5em">We create apps that empower people
-              to use the full potential of decentralized technology</div>
+            <div class="" style="width:63%;letter-spacing: .01em;font-size: 4.5em">We create apps that <span style="text-decoration: underline;font-weight:bold;">empower</span> people
+              to use the full potential of <span style="text-decoration: underline;font-weight:bold;">decentralized tech</span>
+            </div>
           </div>
         </v-flex>
 

@@ -2,12 +2,14 @@
   <div>
     <toolBar/>
     <v-flex xs12 class="ma-0 pa-0 first">
-      <div class="text-xs-left center ml-5" style="  ">
-        <div class="" style="width:63%;
-        font-size: 4.5em;color:White;font-weight:bold;
-        position:relative;left: 5vw;top: 10vh;">
-          Cypherpunks Write Code <span style="font-size: .5em;"><br>-Cypherpunks Manifesto</span></div>
-      </div>
+        <div class="text-xs-left" style="width:75%;
+        font-size: 4.5em;color:#8bd6ed;
+        position:relative;
+          left: 5vw;
+          top: 35vh;">
+          Our apps solve <span style="text-decoration: underline;font-weight:bold;">real</span> problems that
+          <span style="text-decoration: underline;font-weight:bold;">actual</span> people have with using decentralized tech
+        </div>
     </v-flex>
 
     <v-flex xs12 class="ma-0 pa-0 third">
@@ -27,7 +29,7 @@
             text-align: left;
             color: black;"
           >
-            Crypto Security and Usage is a deeply unique issue, but the crypto space
+            Crypto Security and Usage is a unique issue, but the crypto space
             reccomends the same best practices to everyone. This app delivers a
             <span style="font-weight:bold;">customized</span> risk assemsnt and plan
             that allows you to own your keys in a way that works best for you.
@@ -125,11 +127,11 @@ export default {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  background-image: url('https://res.cloudinary.com/dylevfpbl/image/upload/v1555546002/decenMain/abstract-art-background-633409.jpg');
+  background-image: url('https://res.cloudinary.com/dylevfpbl/image/upload/v1555552411/decenMain/tech6.jpg');
 }
 .third{
   height: 80vh;
-  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+  background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
 }
 .background{
   background-position: center; /* Center the image */
@@ -147,5 +149,12 @@ export default {
 .thirdp{
     height:80vh;
   background-image: url('https://res.cloudinary.com/dylevfpbl/image/upload/v1555187114/decenMain/tech.jpg')
+}
+.center{
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>
