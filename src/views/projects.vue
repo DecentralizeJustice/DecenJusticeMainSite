@@ -12,7 +12,7 @@
         </div>
     </v-flex>
 
-    <v-flex xs12 class="ma-0 pa-0 third">
+    <v-flex xs12 class="ma-0 pa-0 odd">
       <v-layout row wrap>
         <v-flex xs6 style="" class="background firstp">
         </v-flex>
@@ -43,7 +43,7 @@
         </v-layout>
     </v-flex>
 
-    <v-flex xs12 class="ma-0 pa-0 third">
+    <v-flex xs12 class="ma-0 pa-0 even">
       <v-layout row wrap>
         <v-flex xs6 style="height:100%;">
           <div class="" style="width:50vw;letter-spacing:.01em;font-size: 4.5em;color: white;position:relative;
@@ -74,7 +74,7 @@
         </v-layout>
     </v-flex>
 
-    <v-flex xs12 class="ma-0 pa-0 third">
+    <v-flex xs12 class="ma-0 pa-0 odd">
       <v-layout row wrap>
         <v-flex xs6 style="" class="background thirdp">
         </v-flex>
@@ -129,9 +129,13 @@ export default {
   background-size: cover;
   background-image: url('https://res.cloudinary.com/dylevfpbl/image/upload/v1555552411/decenMain/tech6.jpg');
 }
-.third{
+.odd{
   height: 80vh;
-  background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.even{
+  height: 80vh;
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
 }
 .background{
   background-position: center; /* Center the image */
