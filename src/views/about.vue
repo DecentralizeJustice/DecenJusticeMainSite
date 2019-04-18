@@ -1,16 +1,14 @@
 <template>
   <div>
     <toolBar/>
-
-        <v-flex xs12 class="ma-0 pa-0 first">
-
-          <div class="text-xs-left center ml-5" style="  ">
-            <div class="" style="width:63%;letter-spacing: .01em;font-size: 4.5em">We create apps that <span style="text-decoration: underline;font-weight:bold;">empower</span> people
-              to use the full potential of <span style="text-decoration: underline;font-weight:bold;">decentralized tech</span>
-            </div>
-          </div>
-        </v-flex>
-
+    <v-flex xs12 class="ma-0 pa-0 first">
+        <div class="text-xs-left center"
+          v-bind:style="{width:'75vw','letter-spacing':'.01em','font-size':bannerfontSize,position:relative,left: '7vw'}">
+          We create apps that <span style="text-decoration: underline;font-weight:bold;">empower</span> people
+          to use the full potential of <span style="text-decoration: underline;font-weight:bold;">decentralized tech</span>
+        </div>
+    </v-flex>
+<!--
         <v-flex xs12 class="ma-0 pa-0 second">
           <v-layout row wrap>
             <v-flex xs6 style="height:100%;">
@@ -118,7 +116,7 @@
             </v-flex>
           </v-layout>
 
-        </v-flex>
+        </v-flex> -->
 
   </div>
 </template>
@@ -128,9 +126,15 @@ import toolBar from '@/components/toolBar.vue'
 export default {
   name: 'about',
   components: {
-    toolBar },
-  data () {
-    return {
+    toolBar
+  },
+  computed: {
+    bannerfontSize () {
+      switch (this.$vuetify.breakpoint.name) {
+        case 'sm': return '3em'
+        case 'xs': return '3em'
+        default: return '5em'
+      }
     }
   }
 }
@@ -157,7 +161,7 @@ export default {
   margin: 0;
   position: relative;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 </style>
