@@ -34,11 +34,13 @@
             <span style="font-weight:bold;">customized</span> risk assemsnt and plan
             that allows you to own your keys in a way that works best for you.
         </div>
-        <v-btn color="info" style="position:relative;
+        <a href='https://keysbyanymeans.com/' target="_blank"
+        ><button  class="bttn-simple bttn-lg" style="position:relative;
           left: 21vw;
           top: 24vh;
-        " href='https://keysbyanymeans.com/' target="_blank"
-        >Explore</v-btn>
+          background-color: blue;
+        "
+        >Explore</button></a>
         </v-flex>
         </v-layout>
     </v-flex>
@@ -58,10 +60,9 @@
             text-align: left;
             color: black;"
           >
-            Crypto Security and Usage is a deeply unique issue, but the crypto space
-            reccomends the same best practices to everyone. This app delivers a
-            <span style="font-weight:bold;">customized</span> risk assemsnt and plan
-            that allows you to own your keys in a way that works best for you.
+            Plastic creates a new option for crypto backup. It is a cheaper and easeir to make than metal.
+            It is also more durable than paper. Plastic key storage methods will help more people secure thier crypto keys.
+
         </div>
         <a href='https://plastickeystorage.com/' target="_blank"
         ><button  class="bttn-simple bttn-lg" style="position:relative;
@@ -94,17 +95,17 @@
             text-align: left;
             color: black;"
           >
-            Crypto Security and Usage is a deeply unique issue, but the crypto space
-            reccomends the same best practices to everyone. This app delivers a
-            <span style="font-weight:bold;">customized</span> risk assemsnt and plan
-            that allows you to own your keys in a way that works best for you.
+            Multisignature is  the most <span style="font-weight:bold;">secure</span> way to use crypto. This technology
+            has been kept beyond the reach of most consumers due to its complexity. Multisig Crypto is a wallet that will
+            bring this technology from just the experts to <span style="font-weight:bold;">everyone</span>.
         </div>
-        <v-btn color="info" style="position:relative;
+        <a href='https://www.multisigcrypto.com/' target="_blank"
+        ><button  class="bttn-simple bttn-lg" style="position:relative;
           left: 21vw;
           top: 24vh;
-        " href='https://www.multisigcrypto.com/' target="_blank"
-        >Explore</v-btn>
-        <button class = "bttn-slant">Submit</button>
+          background-color: blue;
+        "
+        >Explore</button></a>
         </v-flex>
         </v-layout>
     </v-flex>
