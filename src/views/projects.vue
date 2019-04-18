@@ -63,11 +63,14 @@
             <span style="font-weight:bold;">customized</span> risk assemsnt and plan
             that allows you to own your keys in a way that works best for you.
         </div>
-        <v-btn color="info" style="position:relative;
+        <a href='https://plastickeystorage.com/' target="_blank"
+        ><button  class="bttn-simple bttn-lg" style="position:relative;
           left: 21vw;
           top: 24vh;
-        " href='https://plastickeystorage.com/' target="_blank"
-        >Explore</v-btn>
+          background-color: blue;
+        "
+        >Explore</button></a>
+
         </v-flex>
         <v-flex xs6 class="background secondp">
         </v-flex>
@@ -101,6 +104,7 @@
           top: 24vh;
         " href='https://www.multisigcrypto.com/' target="_blank"
         >Explore</v-btn>
+        <button class = "bttn-slant">Submit</button>
         </v-flex>
         </v-layout>
     </v-flex>
