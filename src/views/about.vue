@@ -12,7 +12,7 @@
     </v-flex>
 
     <firstsect/>
-
+    <secondsect/>
         <!-- <v-flex xs12 class="ma-0 pa-0 third">
           <v-layout row wrap>
             <v-flex xs6 style="height:100%;">
@@ -91,11 +91,13 @@
 <script>
 import toolBar from '@/components/toolBar.vue'
 import firstsect from '@/components/about/firstsect.vue'
+import secondsect from '@/components/about/secondsect.vue'
 export default {
   name: 'about',
   components: {
     toolBar,
-    firstsect
+    firstsect,
+    secondsect
   },
   computed: {
     bannerfontSize () {
