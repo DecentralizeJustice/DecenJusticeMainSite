@@ -22,9 +22,9 @@
         </v-flex>
         <v-flex xs3  style="height:100vh;">
             <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555482590/decenMain/undraw_bitcoin2_ave7.svg"
-              style="height:auto;width:70%;position:relative;
+              style="height:40vh;width:auto;position:relative;
                 left: 0%;
-                top: 25%;" >
+                top: 30vh;" >
         </v-flex>
       </v-layout>
     </v-flex>
