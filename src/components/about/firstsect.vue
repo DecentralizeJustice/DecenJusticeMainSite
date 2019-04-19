@@ -8,13 +8,13 @@
           position:relative;left: 2%;top: 8%;">
 
             <div  class="text-xs-center"
-              style="width:70%;font-size:8vh;color: white;
-              position:relative;left: 10%;top: 80%;font-weight:bold;"
+              style="width:70%;font-size:10vh;color: white;
+              position:relative;left: 14%;top: 80%;font-weight:bold;"
             >What Drives Us</div>
 
               <div
                 style="width: 60vw;font-size: 3.5vh;color: white;
-                position:relative;left:10%;top: 8vh;
+                position:relative;left:10%;top: 4vh;
                 color: #09093B;text-align:left;" v-html="main"
               >
              </div>
