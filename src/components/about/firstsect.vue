@@ -2,35 +2,28 @@
 <div class='hidden-sm-and-down'>
     <v-flex xs12 class="ma-0 pa-0 second" style="height:100vh;">
       <v-layout row wrap>
-        <v-flex md6 xs12 style="height:100vh;">
+        <v-flex xs9 style="height:100vh;">
 
           <div style="width:100%;
           position:relative;left: 2%;top: 8%;">
 
             <div  class="text-xs-center"
               style="width:70%;font-size:8vh;color: white;
-              position:relative;left: 20%;top: 80%;font-weight:bold;"
+              position:relative;left: 10%;top: 80%;font-weight:bold;"
             >What Drives Us</div>
 
               <div
-                style="width: 50vw;font-size: 3.5vh;color: white;
-                position:relative;left:15%;top: 4vh;
-                color: #09093B;text-align:left;"
+                style="width: 60vw;font-size: 3.5vh;color: white;
+                position:relative;left:10%;top: 8vh;
+                color: #09093B;text-align:left;" v-html="main"
               >
-              We first got involved in crypto in 2014 by building mining rigs. To be in the space at this time required a
-              vast understanding of technology. Since then we have seen the crypto consumer space grow at
-              an exponential rate. Although the exponential for decentralized technologies has grown
-              since then, the tooling has not kept up with this growth. Most of the tools that exist
-              today are too advanced to be safe or to simple to be powerful. We are
-               working to bridge this gap with targeted applications that aim to empower,
-               not overwhelm or limit, users of decentralized technologies.
              </div>
           </div>
         </v-flex>
-        <v-flex md6 xs12 style="height:100vh;">
+        <v-flex xs3  style="height:100vh;">
             <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555482590/decenMain/undraw_bitcoin2_ave7.svg"
-              style="height:auto;width:50%;position:relative;
-                left: 28%;
+              style="height:auto;width:70%;position:relative;
+                left: 0%;
                 top: 25%;" >
         </v-flex>
       </v-layout>
@@ -48,6 +41,13 @@ export default {
   },
   data () {
     return {
+      main: `We first got involved in crypto in 2014 by building mining rigs. To be in the space at this time required a\
+              vast understanding of technology. Since then we have seen the crypto consumer space grow at\
+              an exponential rate. Although the exponential for decentralized technologies has grown\
+              since then, the tooling has not kept up with this growth. Most of the tools that exist\
+              today are too advanced to be safe or to simple to be powerful. We are\
+              working to bridge this gap with targeted applications that aim to empower,\
+              not overwhelm or limit, users of decentralized technologies.`
     }
   },
   computed: {
