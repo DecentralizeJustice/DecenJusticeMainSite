@@ -11,7 +11,7 @@
         </div>
     </v-flex>
 
-    <fbody/>
+    <firstsect/>
 
         <!-- <v-flex xs12 class="ma-0 pa-0 third">
           <v-layout row wrap>
@@ -90,12 +90,12 @@
 </template>
 <script>
 import toolBar from '@/components/toolBar.vue'
-import fbody from '@/components/about/1body.vue'
+import firstsect from '@/components/about/firstsect.vue'
 export default {
   name: 'about',
   components: {
     toolBar,
-    fbody
+    firstsect
   },
   computed: {
     bannerfontSize () {

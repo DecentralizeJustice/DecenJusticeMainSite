@@ -1,6 +1,6 @@
 <template>
-<div>
-    <v-flex xs12 class="ma-0 pa-0 second hidden-sm-and-down" style="height:80vh;">
+<div class='hidden-sm-and-down'>
+    <v-flex xs12 class="ma-0 pa-0 second" style="height:100vh;">
       <v-layout row wrap>
         <v-flex md6 xs12 style="height:100vh;">
 
@@ -8,13 +8,13 @@
           position:relative;left: 2%;top: 8%;">
 
             <div  class="text-xs-center"
-              style="width:70%;font-size:400%;color: white;
-              position:relative;left: 20%;top: 8%;font-weight:bold;"
+              style="width:70%;font-size:8vh;color: white;
+              position:relative;left: 20%;top: 80%;font-weight:bold;"
             >What Drives Us</div>
 
-              <div  class=""
-                style="width: 100%;font-size: 200%;color: white;
-                position:relative;left:15%;top: 10%;
+              <div
+                style="width: 50vw;font-size: 3.5vh;color: white;
+                position:relative;left:15%;top: 4vh;
                 color: #09093B;text-align:left;"
               >
               We first got involved in crypto in 2014 by building mining rigs. To be in the space at this time required a
@@ -27,24 +27,46 @@
              </div>
           </div>
         </v-flex>
-        <v-flex md6 xs12 style="height:25vh;">
+        <v-flex md6 xs12 style="height:100vh;">
             <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555482590/decenMain/undraw_bitcoin2_ave7.svg"
               style="height:auto;width:50%;position:relative;
-                left: 25%;
-                top: 50%;" >
+                left: 28%;
+                top: 25%;" >
         </v-flex>
       </v-layout>
     </v-flex>
-    <v-parallax
+    <v-parallax style="height:50vh;"
     src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555450301/decenMain/mining-2648005_960_720.jpg">
     </v-parallax>
 </div>
 </template>
 <script>
 export default {
-  name: 'fbody',
+  name: 'firstsect',
   components: {
 
+  },
+  data () {
+    return {
+    }
+  },
+  computed: {
+    titlefontsize () {
+      switch (this.$vuetify.breakpoint.name) {
+        case 'md': return '300%'
+        case 'sm': return '300%'
+        case 'xs': return '125%'
+        default: return '400%'
+      }
+    },
+    bodyfontsize () {
+      switch (this.$vuetify.breakpoint.name) {
+        case 'md': return '140%'
+        case 'sm': return '300%'
+        case 'xs': return '125%'
+        default: return '155%'
+      }
+    }
   }
 }
 </script>
