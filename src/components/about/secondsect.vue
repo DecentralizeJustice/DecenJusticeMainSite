@@ -21,11 +21,11 @@
                </div>
             </div>
           </v-flex>
-          <v-flex xs3>
+          <v-flex xs3 style="height:80vh;">
               <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555482893/decenMain/vectorpaint.svg"
                 style="height:40vh;width:auto;position:relative;
                   left: 0%;
-                  top: 30vh;" >
+                  " class="centery">
           </v-flex>
         </v-layout>
       </v-flex>
@@ -84,6 +84,12 @@ export default {
   left: 50%;
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+}
+.centery{
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 </style>
