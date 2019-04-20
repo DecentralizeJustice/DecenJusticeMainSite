@@ -20,6 +20,7 @@
                 >
                </div>
             </div>
+            <div>
             <a href="https://twitter.com/DecenJustice">
             <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555472356/decenMain/Twitter_Logo_Blue.png"
               style="height:40vh;width:auto;position:relative;
@@ -32,6 +33,7 @@
                   left: 20vw;
                   top: 2vh;" >
                 </a>
+              </div>
           </v-flex>
 
           <v-flex xs3>
@@ -57,6 +59,7 @@
           color: #09093B;text-align:left;padding:3%;" v-html="main"
         >
        </div>
+       <div>
        <a href="https://twitter.com/DecenJustice">
        <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555472356/decenMain/Twitter_Logo_Blue.png"
          style="height:auto;width:40%;position:relative;
@@ -69,6 +72,7 @@
              left: 12vw;
              top:-2vh;" >
            </a>
+        </div>
   </v-flex>
 
 </div>
