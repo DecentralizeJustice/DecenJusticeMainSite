@@ -105,8 +105,7 @@ export default {
           odd: true,
           pageLink: 'https://keysbyanymeans.com/',
           backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555191944/decenMain/keystack.jpg',
-          icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555795100/decenMain/undraw_preferences_uuo2.svg',
-          num: 1
+          icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555795100/decenMain/undraw_preferences_uuo2.svg'
         },
         {
           title: 'Plastic Key Storage',
@@ -118,8 +117,7 @@ export default {
           odd: false,
           pageLink: 'https://plastickeystorage.com/',
           backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555546242/decenMain/cards-2179841_960_720.jpg',
-          icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555792482/decenMain/undraw_profile_data_mk6k.svg',
-          num: 2
+          icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555792482/decenMain/undraw_profile_data_mk6k.svg'
         },
         {
           title: 'Multisig Crypto',
@@ -130,8 +128,7 @@ export default {
           odd: true,
           pageLink: 'https://www.multisigcrypto.com/',
           backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187114/decenMain/tech.jpg',
-          icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555796950/decenMain/undraw_interaction_design_odgc.svg',
-          num: 3
+          icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555796950/decenMain/undraw_interaction_design_odgc.svg'
         }
       ]
     }

@@ -5,10 +5,10 @@
     v-bind:class="{ 'ma-0': true, 'pa-0': true,'hidden-sm-and-down': true, 'odd': odd, 'even': !odd  }">
       <v-flex xs6
       v-bind:style="{'height':'100%', backgroundImage: 'url(' + sectObject.backpic + ')'}"
-      v-bind:class="{ 'order-sm2': picSide,'background': true  }">
+      v-bind:class="{ 'order-sm2': odd,'background': true  }">
       </v-flex>
       <v-flex xs6 style="height:100%;text-align: center;"
-        v-bind:class="{ 'order-sm1': picSide,  }">
+        v-bind:class="{ 'order-sm1': odd,  }">
         <div style="width:100%;letter-spacing:.01em;
         font-size:3vw;position:relative;top: 10vh;
           font-weight:bold;text-align: center;
@@ -80,12 +80,6 @@ export default {
   computed: {
     odd: function () {
       if (this.sectObject.odd === true) {
-        return true
-      }
-      return false
-    },
-    picSide: function () {
-      if ((this.sectObject.num % 2) === 1) {
         return true
       }
       return false
