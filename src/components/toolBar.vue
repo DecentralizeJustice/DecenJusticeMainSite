@@ -28,6 +28,7 @@
             v-for="page in pages"
             :key="page.title"
             :to="page.link"
+            class="mt-2"
           >
             <v-list-tile-content style="font-size: 2em;">
               {{page.title}}
