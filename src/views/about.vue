@@ -11,23 +11,49 @@
         </div>
     </v-flex>
 
-    <firstsect/>
-    <secondsect/>
+    <textSect v-for="item in data" :key="item.title"
+        v-bind:sectObject="item"/>
     <thirdsect/>
   </div>
 </template>
 <script>
 import toolBar from '@/components/toolBar.vue'
-import firstsect from '@/components/about/firstsect.vue'
-import secondsect from '@/components/about/secondsect.vue'
+import textSect from '@/components/about/textSect.vue'
 import thirdsect from '@/components/about/thirdsect.vue'
 export default {
   name: 'about',
   components: {
     toolBar,
-    firstsect,
-    secondsect,
+    textSect,
     thirdsect
+  },
+  data () {
+    return {
+      data: [
+        {
+          title: 'What Drives Us',
+          text: `We first got involved in crypto in 2014 by building mining rigs. To be in the space at this time required a
+                  vast understanding of technology. Since then we have seen the crypto consumer space grow at
+                  an exponential rate. Although the exponential for decentralized technologies has grown
+                  since then, the tooling has not kept up with this growth. Most of the tools that exist
+                  today are too advanced to be safe or to simple to be powerful. We are
+                  working to bridge this gap with targeted applications that aim to empower,
+                  not overwhelm or limit, users of decentralized technologies.`,
+          svgLink: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555482590/decenMain/undraw_bitcoin2_ave7.svg',
+          parraLink: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555450301/decenMain/mining-2648005_960_720.jpg'
+        },
+        {
+          title: 'Who We Are',
+          text: `Donely Gunn founded Decentralize Justice after the crypto bull run of 2017.
+                  Donely has shown a passion for trying to improve society with technology since
+                  a young age and has spent their life perfecting that craft.   They first got
+                  involved with crypto in high school via bitcoin mining, and they later saw major
+                  issues in the usability of crypto and sought to solve a lot of these issues with Decentralize Justice.`,
+          svgLink: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555482893/decenMain/vectorpaint.svg',
+          parraLink: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555707015/decenMain/mathsciencewhiz1_1.jpg'
+        }
+      ]
+    }
   },
   computed: {
     bannerfontSize () {
