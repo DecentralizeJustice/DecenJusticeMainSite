@@ -50,7 +50,8 @@ export default {
                   involved with crypto in high school via bitcoin mining, and they later saw major
                   issues in the usability of crypto and sought to solve a lot of these issues with Decentralize Justice.`,
           svgLink: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555482893/decenMain/vectorpaint.svg',
-          parraLink: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555707015/decenMain/mathsciencewhiz1_1.jpg'
+          parraLink: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555707015/decenMain/mathsciencewhiz1_1.jpg',
+          short: true
         }
       ]
     }

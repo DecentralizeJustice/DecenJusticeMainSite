@@ -1,9 +1,9 @@
 <template>
 <div>
   <div class='hidden-sm-and-down'>
-      <v-flex xs12 class="ma-0 pa-0 second" style="height:100vh;">
+      <v-flex xs12 class="ma-0 pa-0 second" v-bind:style="{ 'height': height }">
         <v-layout row wrap>
-          <v-flex xs9 >
+          <v-flex xs9 v-bind:style="{ 'height': height }">
 
             <div style="width:100%;
             position:relative;left: 2%;top: 8%;">
@@ -21,11 +21,9 @@
                </div>
             </div>
           </v-flex>
-          <v-flex xs3 >
-              <img :src="sectObject.svgLink"
-                style="height:40vh;width:auto;position:relative;
-                  left: 0%;
-                  top: 30vh;" >
+          <v-flex xs3 v-bind:style="{ 'height': height }">
+              <img :src="sectObject.svgLink" class="centerY"
+                style="height:40%;width:auto;position:relative;" >
           </v-flex>
         </v-layout>
       </v-flex>
@@ -67,6 +65,12 @@ export default {
     }
   },
   computed: {
+    height: function () {
+      if (this.sectObject.short === true) {
+        return '80vh'
+      }
+      return '90vh'
+    }
   }
 }
 </script>
@@ -82,5 +86,10 @@ export default {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-
+.centerY{
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 </style>

@@ -11,7 +11,7 @@
 
         </div>
     </v-flex>
-    <sect   v-for="item in data" :key="item.id"
+    <sect   v-for="item in data" :key="item.title"
         v-bind:sectObject="item" />
 
   </div>
