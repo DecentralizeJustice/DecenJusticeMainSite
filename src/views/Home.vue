@@ -8,7 +8,7 @@
         bottom: 0;
         min-width: 100%;
         min-height: 100%;"
-        src="https://res.cloudinary.com/dylevfpbl/video/upload/v1551009310/decenMain/yes.mp4" autoplay muted loop/>
+        src="https://res.cloudinary.com/dylevfpbl/video/upload/v1551009310/decenMain/vc_auto/yes.mp4" autoplay muted loop/>
 
         <v-flex class="title" md8 offset-xs2 pa-2 >
           <div class="display-4 white--text text-xs-center" >
