@@ -51,18 +51,18 @@ export default {
           pageLink: 'https://plastickeystorage.com/',
           backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555546242/decenMain/cards-2179841_960_720.jpg',
           icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555792482/decenMain/undraw_profile_data_mk6k.svg'
-        },
-        {
-          title: 'Multisig Crypto',
-          text: `Multisignature is  the most <span style="font-weight:bold;">secure</span> way to use crypto. This technology
-                  has been kept beyond the reach of most consumers due to its complexity. Multisig Crypto is a wallet that will
-                  bring this technology from just the experts to <span style="font-weight:bold;">everyone</span>.`,
-          buttonText: 'Explore',
-          odd: true,
-          pageLink: 'https://www.multisigcrypto.com/',
-          backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187114/decenMain/tech.jpg',
-          icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555796950/decenMain/undraw_interaction_design_odgc.svg'
         }
+        // {
+        //   title: 'Multisig Crypto',
+        //   text: `Multisignature is  the most <span style="font-weight:bold;">secure</span> way to use crypto. This technology
+        //           has been kept beyond the reach of most consumers due to its complexity. Multisig Crypto is a wallet that will
+        //           bring this technology from just the experts to <span style="font-weight:bold;">everyone</span>.`,
+        //   buttonText: 'Explore',
+        //   odd: true,
+        //   pageLink: 'https://www.multisigcrypto.com/',
+        //   backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187114/decenMain/tech.jpg',
+        //   icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555796950/decenMain/undraw_interaction_design_odgc.svg'
+        // }
       ]
     }
   },
