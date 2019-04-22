@@ -69,6 +69,7 @@ a{
 .buttonOpt {
   color:  white;
   font-size: 1.4rem;
+  background-color: grey;
 }
 
 </style>
