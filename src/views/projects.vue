@@ -54,7 +54,7 @@ export default {
         },
         {
           title: 'SSS Backup',
-          text: `SSS Backup uses shamir secret shairng to allow you to back up your mnemonic code. This toolBar
+          text: `SSS Backup uses shamir secret shairng to allow you to back up your mnemonic code. This tool
           can be used for hardwallets and software wallets.`,
           buttonText: 'Explore',
           odd: true,
