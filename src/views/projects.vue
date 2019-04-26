@@ -51,6 +51,16 @@ export default {
           pageLink: 'https://plastickeystorage.com/',
           backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555546242/decenMain/cards-2179841_960_720.jpg',
           icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555792482/decenMain/undraw_profile_data_mk6k.svg'
+        },
+        {
+          title: 'SSS Backup',
+          text: `SSS Backup uses shamir secret shairng to allow you to back up your mnemonic code. This toolBar
+          can be used for hardwallets and software wallets.`,
+          buttonText: 'Explore',
+          odd: true,
+          pageLink: 'https://sssbackup.com/',
+          backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1556168910/sss/access-background-black-761149.jpg',
+          icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1556170505/sss/undraw_Memory_storage_reh0.svg'
         }
         // {
         //   title: 'Multisig Crypto',
