@@ -53,27 +53,16 @@ export default {
           icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555792482/decenMain/undraw_profile_data_mk6k.svg'
         },
         {
-          title: 'SSS Backup',
-          text: `SSS Backup uses shamir secret shairng to allow you to back up your mnemonic code in a secure and distributed way
-          . This tool
-          can be used for hardwallets and software wallets.`,
+          title: 'Multisig Crypto',
+          text: `Multisignature is  the most <span style="font-weight:bold;">secure</span> way to use crypto. This technology
+                  has been kept beyond the reach of most consumers due to its complexity. Multisig Crypto is a wallet that will
+                  bring this technology from just the experts to <span style="font-weight:bold;">everyone</span>.`,
           buttonText: 'Explore',
           odd: true,
-          pageLink: 'https://sssbackup.com/',
-          backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1556168910/sss/access-background-black-761149.jpg',
-          icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1556170505/sss/undraw_Memory_storage_reh0.svg'
+          pageLink: 'https://www.multisigcrypto.com/',
+          backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187114/decenMain/tech.jpg',
+          icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555796950/decenMain/undraw_interaction_design_odgc.svg'
         }
-        // {
-        //   title: 'Multisig Crypto',
-        //   text: `Multisignature is  the most <span style="font-weight:bold;">secure</span> way to use crypto. This technology
-        //           has been kept beyond the reach of most consumers due to its complexity. Multisig Crypto is a wallet that will
-        //           bring this technology from just the experts to <span style="font-weight:bold;">everyone</span>.`,
-        //   buttonText: 'Explore',
-        //   odd: true,
-        //   pageLink: 'https://www.multisigcrypto.com/',
-        //   backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187114/decenMain/tech.jpg',
-        //   icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555796950/decenMain/undraw_interaction_design_odgc.svg'
-        // }
       ]
     }
   },
