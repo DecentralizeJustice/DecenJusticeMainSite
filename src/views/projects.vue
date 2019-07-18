@@ -62,7 +62,7 @@ export default {
           pageLink: 'https://sssbackup.com/',
           backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1556168910/sss/access-background-black-761149.jpg',
           icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1556170505/sss/undraw_Memory_storage_reh0.svg'
-        }
+        },
         {
           title: 'Multisig Crypto',
           text: `Multisignature is  the most <span style="font-weight:bold;">secure</span> way to use crypto. This technology
