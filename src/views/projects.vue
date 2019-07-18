@@ -40,18 +40,18 @@ export default {
         //   backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555191944/decenMain/keystack.jpg',
         //   icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555795100/decenMain/undraw_preferences_uuo2.svg'
         // },
-        {
-          title: 'Plastic Key Storage',
-          text: ` Plastic materials create a new option for crypto keys backup. It is
-                  <span style="font-weight:bold;">cheaper and easier</span> to use than metal backups.
-                  It is also more <span style="font-weight:bold;">durable</span> than writing your seed on paper.
-                   Plastic key storage methods will help more people secure their crypto keys.`,
-          buttonText: 'Explore',
-          odd: false,
-          pageLink: 'https://plastickeystorage.com/',
-          backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555546242/decenMain/cards-2179841_960_720.jpg',
-          icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555792482/decenMain/undraw_profile_data_mk6k.svg'
-        },
+        // {
+        //   title: 'Plastic Key Storage',
+        //   text: ` Plastic materials create a new option for crypto keys backup. It is
+        //           <span style="font-weight:bold;">cheaper and easier</span> to use than metal backups.
+        //           It is also more <span style="font-weight:bold;">durable</span> than writing your seed on paper.
+        //            Plastic key storage methods will help more people secure their crypto keys.`,
+        //   buttonText: 'Explore',
+        //   odd: false,
+        //   pageLink: 'https://plastickeystorage.com/',
+        //   backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555546242/decenMain/cards-2179841_960_720.jpg',
+        //   icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555792482/decenMain/undraw_profile_data_mk6k.svg'
+        // },
         // {
         //   title: 'SSS Backup',
         //   text: `SSS Backup uses shamir secret shairng to allow you to back up your mnemonic code in a secure and distributed way
