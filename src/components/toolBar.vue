@@ -1,9 +1,10 @@
 <template>
   <v-container fluid class="ma-0 pa-0">
-    <v-toolbar dark app>
+    <v-toolbar dark>
       <v-toolbar-title>Decentralize Justice</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
+      color='grey darken-3'
       class="hidden-md-and-up" @click.stop="drawer = !drawer">
           <v-icon dark>mdi-menu</v-icon>
       </v-btn>
