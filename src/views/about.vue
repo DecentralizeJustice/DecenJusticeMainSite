@@ -1,31 +1,25 @@
 <template>
-  <div>
-    <toolBar/>
-    <v-flex xs12 class="ma-0 pa-0 first">
-        <div class="text-xs-left center"
-          v-bind:style="{width:'75vw','letter-spacing':'.01em','font-size':bannerfontSize,position:'relative',left: '7vw'}">
-
+  <v-container fluid class="pa-0">
+    <v-row no-gutters class="ma-0 pa-0 first">
+        <div class="text-xs-left center white--text ma-3 pa-3"
+          v-bind:style="{width:'80vw','letter-spacing':'.01em','font-size':bannerfontSize,position:'relative'}">
           We create apps that <span style="text-decoration: underline;font-weight:bold;">empower</span> people
           to use the full potential of <span style="text-decoration: underline;font-weight:bold;">decentralized tech</span>
-
         </div>
-    </v-flex>
+    </v-row>
 
+    <v-row no-gutters class="ma-0 pa-0">
     <textSect v-for="item in data" :key="item.title"
         v-bind:sectObject="item"/>
-    <thirdsect/>
-  </div>
+        </v-row>
+  </v-container>
 </template>
 <script>
-import toolBar from '@/components/toolBar.vue'
 import textSect from '@/components/about/textSect.vue'
-import thirdsect from '@/components/about/thirdsect.vue'
 export default {
   name: 'about',
   components: {
-    toolBar,
-    textSect,
-    thirdsect
+    textSect
   },
   data () {
     return {
@@ -46,12 +40,11 @@ export default {
           title: 'Who We Are',
           text: `Donely Gunn founded Decentralize Justice after the crypto bull run of 2017.
                   Donely has shown a passion for trying to improve society with technology since
-                  a young age and has spent their life perfecting that craft.   They first got
+                  a young age and has spent their life perfecting that craft. They first got
                   involved with crypto in high school via bitcoin mining, and they later saw major
                   issues in the usability of crypto and sought to solve a lot of these issues with Decentralize Justice.`,
           svgLink: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555482893/decenMain/vectorpaint.svg',
-          parraLink: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555707015/decenMain/mathsciencewhiz1_1.jpg',
-          short: true
+          parraLink: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555565441/decenMain/codenonblur.jpg'
         }
       ]
     }

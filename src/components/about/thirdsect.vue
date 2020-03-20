@@ -1,50 +1,5 @@
 <template>
 <div>
-  <div class='hidden-sm-and-down'>
-      <v-flex xs12 class="ma-0 pa-0 second" style="height:80vh;">
-        <v-layout row wrap>
-          <v-flex xs9>
-
-            <div style="width:100%;
-            position:relative;left: 2%;top: 8%;">
-
-              <div  class="text-xs-center"
-                style="width:70%;font-size:10vh;color: white;
-                position:relative;left: 14%;top: 80%;font-weight:bold;"
-              >Reach Out</div>
-
-                <div
-                  style="width: 60vw;font-size: 3.5vh;
-                  position:relative;left:10%;top: 4vh;
-                  color: #09093B;text-align:left;" v-html="main"
-                >
-               </div>
-            </div>
-            <div>
-            <a href="https://twitter.com/DecenJustice">
-            <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555472356/decenMain/Twitter_Logo_Blue.png"
-              style="height:40vh;width:auto;position:relative;
-                left: 14vw;
-                top: 9vh;">
-              </a>
-              <a href="https://www.reddit.com/r/DecentralizeJustice">
-              <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555450247/decenMain/Reddit_Mark_OnDark.png"
-                style="height:25vh;width:auto;position:relative;
-                  left: 20vw;
-                  top: 2vh;" >
-                </a>
-              </div>
-          </v-flex>
-
-          <v-flex xs3>
-              <img src="https://res.cloudinary.com/dylevfpbl/image/upload/v1555483001/decenMain/undraw_social_thinking_7ule.svg"
-                style="height:30vh;width:auto;position:relative;
-                  left: 0%;
-                  top: 30vh;" >
-          </v-flex>
-        </v-layout>
-      </v-flex>
-  </div>
 
   <v-flex xs12 class="ma-0 pa-0 second hidden-md-and-up">
 

@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-flex xs12 >
-      <v-layout row wrap style="height:80vh;"
+      <v-layout row wrap style="height:90vh;"
         v-bind:class="{ 'ma-0': true, 'pa-0': true,'hidden-sm-and-down': true, 'odd': odd, 'even': !odd  }">
         <v-flex xs6
           v-bind:style="{'height':'100%', backgroundImage: 'url(' + sectObject.backpic + ')'}"
@@ -10,10 +10,10 @@
           <v-flex xs6 style="height:100%;text-align: center;"
             v-bind:class="{ 'order-sm1': odd,  }">
             <div style="width:100%;letter-spacing:.01em;
-            font-size:3vw;position:relative;top: 10vh;
+            font-size:4vw;position:relative;top: 10vh;
               font-weight:bold;text-align: center;
               "
-              v-bind:class="{ 'titleOdd': odd,'titleEven': !odd, 'text-xs-center': true }"
+              v-bind:class="{ 'titleOdd': odd,'titleEven': !odd, 'text-center': true }"
               v-html="sectObject.title"
             ></div>
             <div style="width:80%;font-size: 175%;position:relative;
@@ -26,7 +26,7 @@
           </div>
           <a :href='sectObject.pageLink'
           >
-            <button  style="position:static; margin-top:25%;"
+            <button  style="position:relative; margin-top:25%;"
             v-html="sectObject.buttonText"
             v-bind:class="{ 'bttn-simple': true, 'bttn-lg': true,
             'buttonOdd': odd,'buttonEven': !odd  }"
@@ -38,7 +38,7 @@
 
     <v-flex xs12
       v-bind:class="{ 'ma-0': true, 'pa-0': true,'hidden-md-and-up': true, 'odd': odd, 'even': !odd  }" >
-      <div  v-bind:class="{ 'titleOdd': odd,'titleEven': !odd, 'text-xs-center': true }"
+      <div  v-bind:class="{ 'titleOdd': odd,'titleEven': !odd, 'text-center': true }"
         style="width:100%;font-size:6vh;
         position:relative;top: 3vh;font-weight:bold;padding:2%;"
         v-html="sectObject.title"

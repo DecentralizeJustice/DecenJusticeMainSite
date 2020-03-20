@@ -1,6 +1,5 @@
 <template>
   <div>
-    <toolBar/>
     <v-flex xs12 class="ma-0 pa-0 first">
         <div class="text-xs-left center"
           v-bind:style="{color:'#8bd6ed',width:'75vw','letter-spacing':'.01em',
@@ -17,60 +16,23 @@
   </div>
 </template>
 <script>
-import toolBar from '@/components/toolBar.vue'
 import sect from '@/components/projects/sect.vue'
 export default {
   name: 'projects',
   components: {
-    toolBar,
     sect
   },
   data () {
     return {
       data: [
-        // {
-        //   title: 'Keys By Any Means',
-        //   text: `Crypto Security and Usage is a unique issue, but the crypto space
-        //   reccomends the same best practices to everyone. This app delivers a
-        //   <span style="font-weight:bold;">customized</span> risk assessment and plan
-        //   that allows you to own your keys in a way that works best for you.`,
-        //   buttonText: 'Explore',
-        //   odd: true,
-        //   pageLink: 'https://keysbyanymeans.com/',
-        //   backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555191944/decenMain/keystack.jpg',
-        //   icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555795100/decenMain/undraw_preferences_uuo2.svg'
-        // },
-        // {
-        //   title: 'Plastic Key Storage',
-        //   text: ` Plastic materials create a new option for crypto keys backup. It is
-        //           <span style="font-weight:bold;">cheaper and easier</span> to use than metal backups.
-        //           It is also more <span style="font-weight:bold;">durable</span> than writing your seed on paper.
-        //            Plastic key storage methods will help more people secure their crypto keys.`,
-        //   buttonText: 'Explore',
-        //   odd: false,
-        //   pageLink: 'https://plastickeystorage.com/',
-        //   backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555546242/decenMain/cards-2179841_960_720.jpg',
-        //   icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555792482/decenMain/undraw_profile_data_mk6k.svg'
-        // },
-        // {
-        //   title: 'SSS Backup',
-        //   text: `SSS Backup uses shamir secret shairng to allow you to back up your mnemonic code in a secure and distributed way
-        //   . This tool
-        //   can be used for hardwallets and software wallets.`,
-        //   buttonText: 'Explore',
-        //   odd: true,
-        //   pageLink: 'https://sssbackup.com/',
-        //   backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1556168910/sss/access-background-black-761149.jpg',
-        //   icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1556170505/sss/undraw_Memory_storage_reh0.svg'
-        // },
         {
-          title: 'Multisig Crypto',
-          text: `Multisignature is  the most <span style="font-weight:bold;">secure</span> way to use crypto. This technology
-                  has been kept beyond the reach of most consumers due to its complexity. Multisig Crypto is a wallet that will
-                  bring this technology from just the experts to <span style="font-weight:bold;">everyone</span>.`,
+          title: 'Guiding Wallet',
+          text: `Guiding Wallet aims to be the easiest and most helpfull wallet for people to use crypto. It has
+          walkthrough videos, detailed courses, and secure software that guide your through the entire cryptocurrency process.
+          It is like having experts in the room with you guiding you through out the crypto process.`,
           buttonText: 'Explore',
           odd: true,
-          pageLink: 'https://www.multisigcrypto.com/',
+          pageLink: 'https://guidingwallet.app/',
           backpic: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555187114/decenMain/tech.jpg',
           icon: 'https://res.cloudinary.com/dylevfpbl/image/upload/v1555796950/decenMain/undraw_interaction_design_odgc.svg'
         }

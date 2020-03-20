@@ -1,38 +1,21 @@
 <template>
-<div>
-  <div class='hidden-sm-and-down'>
-      <v-flex xs12 class="ma-0 pa-0 second" v-bind:style="{ 'height': height }">
-        <v-layout row wrap>
-          <v-flex xs9 v-bind:style="{ 'height': height }">
-
-            <div style="width:100%;
-            position:relative;left: 2%;top: 8%;">
-
-              <div  class="text-xs-center"
-                style="width:70%;font-size:10vh;color: white;
-                position:relative;left: 14%;top: 80%;font-weight:bold;" v-html="sectObject.title"
-              ></div>
-
-                <div
-                  style="width: 60vw;font-size: 3.5vh;
-                  position:relative;left:10%;top: 4vh;
-                  color: #09093B;text-align:left;" v-html="sectObject.text"
-                >
-               </div>
-            </div>
-          </v-flex>
-          <v-flex xs3 v-bind:style="{ 'height': height }">
-              <img :src="sectObject.svgLink" class="centerY"
-                style="height:40%;width:auto;position:relative;" >
-          </v-flex>
-        </v-layout>
-      </v-flex>
-      <v-parallax style="height:50vh;"
-      :src="sectObject.parraLink">
-      </v-parallax>
-  </div>
-
-  <v-flex xs12 class="ma-0 pa-0 second hidden-md-and-up">
+    <v-col
+    cols='12'
+    style="height:100%;background-color: #1565C0;"
+      >
+        <div  class="text-center white--text display-3 font-weight-medium ma-5"
+          style="" v-html="sectObject.title"
+        ></div>
+        <div
+        class="text-left white--text headline font-weight-regular ma-5"
+          style="" v-html="sectObject.text"
+        >
+       </div>
+       <img :src="sectObject.svgLink"
+         style="height:auto;width:25vw;" class="center mb-3">
+       <v-parallax style="height: 50vh;" :src="sectObject.parraLink"></v-parallax>
+    </v-col>
+  <!-- <v-flex xs12 class="ma-0 pa-0 second hidden-md-and-up">
 
       <div  class="text-xs-center"
         style="width:100%;font-size:6vh;color: white;
@@ -49,9 +32,7 @@
 
     <img :src="sectObject.svgLink"
       style="height:auto;width:50vw;position:relative;margin-top:5vh;margin-bottom:5vh;" class="center">
-  </v-flex>
-
-</div>
+  </v-flex> -->
 </template>
 <script>
 export default {
@@ -77,7 +58,6 @@ export default {
 <style scoped>
 
 .second{
-  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 .center{
